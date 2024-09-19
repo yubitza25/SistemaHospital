@@ -1,4 +1,4 @@
-﻿Public Class login
+﻿Public Class FrmLogin
     Private Sub btnRegistrarse_Click(sender As Object, e As EventArgs) Handles btnRegistrarse.Click
         Dim registrarUsuario As New FrmRegistrarUsuario
         Me.Hide()

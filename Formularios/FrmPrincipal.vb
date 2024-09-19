@@ -1,5 +1,5 @@
 ﻿Public Class FrmPrincipal
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles LblAtencion.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles LblNombre.Click
 
     End Sub
 
@@ -7,13 +7,7 @@
 
     End Sub
 
-    Private Sub DGVTablaAtencion_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGVTablaAtencion.CellContentClick
+    Private Sub LblHora_Click(sender As Object, e As EventArgs) Handles LblHora.Click
 
     End Sub
-
-    Private Sub FrmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-
 End Class
