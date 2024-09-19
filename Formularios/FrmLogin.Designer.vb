@@ -43,9 +43,10 @@ Partial Class FrmLogin
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.LOGIN1
-        PictureBox1.Location = New Point(414, 25)
+        PictureBox1.Location = New Point(473, 33)
+        PictureBox1.Margin = New Padding(3, 4, 3, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(556, 467)
+        PictureBox1.Size = New Size(635, 623)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -54,9 +55,10 @@ Partial Class FrmLogin
         ' 
         PictureBox2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         PictureBox2.Image = My.Resources.Resources.logo1
-        PictureBox2.Location = New Point(105, 20)
+        PictureBox2.Location = New Point(120, 27)
+        PictureBox2.Margin = New Padding(3, 4, 3, 4)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(154, 135)
+        PictureBox2.Size = New Size(176, 180)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 1
         PictureBox2.TabStop = False
@@ -66,9 +68,9 @@ Partial Class FrmLogin
         LblUsuario.AutoSize = True
         LblUsuario.Font = New Font("Century Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         LblUsuario.ForeColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        LblUsuario.Location = New Point(34, 203)
+        LblUsuario.Location = New Point(39, 271)
         LblUsuario.Name = "LblUsuario"
-        LblUsuario.Size = New Size(62, 18)
+        LblUsuario.Size = New Size(78, 23)
         LblUsuario.TabIndex = 2
         LblUsuario.Text = "Usuario"
         ' 
@@ -77,9 +79,9 @@ Partial Class FrmLogin
         LblContraseña.AutoSize = True
         LblContraseña.Font = New Font("Century Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         LblContraseña.ForeColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        LblContraseña.Location = New Point(34, 263)
+        LblContraseña.Location = New Point(39, 351)
         LblContraseña.Name = "LblContraseña"
-        LblContraseña.Size = New Size(93, 18)
+        LblContraseña.Size = New Size(117, 23)
         LblContraseña.TabIndex = 3
         LblContraseña.Text = "Contraseña"
         ' 
@@ -88,19 +90,21 @@ Partial Class FrmLogin
         txtUsuario.AccessibleDescription = ""
         txtUsuario.BackColor = Color.White
         txtUsuario.ForeColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        txtUsuario.Location = New Point(34, 226)
+        txtUsuario.Location = New Point(39, 301)
+        txtUsuario.Margin = New Padding(3, 4, 3, 4)
         txtUsuario.Name = "txtUsuario"
         txtUsuario.PlaceholderText = "Ingrese su usuario"
-        txtUsuario.Size = New Size(278, 23)
+        txtUsuario.Size = New Size(317, 27)
         txtUsuario.TabIndex = 4
         ' 
         ' txtContraseña
         ' 
         txtContraseña.ForeColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        txtContraseña.Location = New Point(34, 286)
+        txtContraseña.Location = New Point(39, 381)
+        txtContraseña.Margin = New Padding(3, 4, 3, 4)
         txtContraseña.Name = "txtContraseña"
         txtContraseña.PlaceholderText = "Ingrese su contraseña"
-        txtContraseña.Size = New Size(278, 23)
+        txtContraseña.Size = New Size(317, 27)
         txtContraseña.TabIndex = 5
         ' 
         ' Panel1
@@ -116,9 +120,10 @@ Partial Class FrmLogin
         Panel1.Controls.Add(LblUsuario)
         Panel1.Controls.Add(LblContraseña)
         Panel1.Controls.Add(txtUsuario)
-        Panel1.Location = New Point(29, 25)
+        Panel1.Location = New Point(33, 33)
+        Panel1.Margin = New Padding(3, 4, 3, 4)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(364, 467)
+        Panel1.Size = New Size(416, 623)
         Panel1.TabIndex = 6
         ' 
         ' Label3
@@ -126,9 +131,9 @@ Partial Class FrmLogin
         Label3.AutoSize = True
         Label3.Font = New Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label3.ForeColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        Label3.Location = New Point(120, 172)
+        Label3.Location = New Point(137, 229)
         Label3.Name = "Label3"
-        Label3.Size = New Size(123, 23)
+        Label3.Size = New Size(154, 28)
         Label3.TabIndex = 12
         Label3.Text = "¡Bienvenido!"
         ' 
@@ -138,9 +143,9 @@ Partial Class FrmLogin
         LbOlvidarContraseña.AutoSize = True
         LbOlvidarContraseña.ForeColor = Color.Blue
         LbOlvidarContraseña.LinkColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        LbOlvidarContraseña.Location = New Point(34, 331)
+        LbOlvidarContraseña.Location = New Point(39, 441)
         LbOlvidarContraseña.Name = "LbOlvidarContraseña"
-        LbOlvidarContraseña.Size = New Size(131, 15)
+        LbOlvidarContraseña.Size = New Size(164, 20)
         LbOlvidarContraseña.TabIndex = 11
         LbOlvidarContraseña.TabStop = True
         LbOlvidarContraseña.Text = "Olvidaste tu contraseña"
@@ -150,20 +155,21 @@ Partial Class FrmLogin
         ' 
         LinkLabel1.ActiveLinkColor = Color.Blue
         LinkLabel1.AutoSize = True
-        LinkLabel1.Font = New Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        LinkLabel1.Location = New Point(43, 331)
+        LinkLabel1.Font = New Font("Century Gothic", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LinkLabel1.Location = New Point(49, 441)
         LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(0, 16)
+        LinkLabel1.Size = New Size(0, 18)
         LinkLabel1.TabIndex = 10
         ' 
         ' CbRecordar
         ' 
         CbRecordar.AutoSize = True
-        CbRecordar.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        CbRecordar.Font = New Font("Segoe UI", 9.0F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         CbRecordar.ForeColor = Color.FromArgb(CByte(43), CByte(155), CByte(227))
-        CbRecordar.Location = New Point(34, 359)
+        CbRecordar.Location = New Point(39, 479)
+        CbRecordar.Margin = New Padding(3, 4, 3, 4)
         CbRecordar.Name = "CbRecordar"
-        CbRecordar.Size = New Size(142, 19)
+        CbRecordar.Size = New Size(177, 24)
         CbRecordar.TabIndex = 8
         CbRecordar.Text = "Recordar Contraseña"
         CbRecordar.UseVisualStyleBackColor = True
@@ -173,11 +179,12 @@ Partial Class FrmLogin
         btnRegistrarse.BackColor = Color.DarkTurquoise
         btnRegistrarse.Cursor = Cursors.Hand
         btnRegistrarse.FlatStyle = FlatStyle.Flat
-        btnRegistrarse.Font = New Font("Century Gothic", 9F, FontStyle.Bold)
+        btnRegistrarse.Font = New Font("Century Gothic", 9.0F, FontStyle.Bold)
         btnRegistrarse.ForeColor = Color.White
-        btnRegistrarse.Location = New Point(198, 401)
+        btnRegistrarse.Location = New Point(226, 535)
+        btnRegistrarse.Margin = New Padding(3, 4, 3, 4)
         btnRegistrarse.Name = "btnRegistrarse"
-        btnRegistrarse.Size = New Size(132, 32)
+        btnRegistrarse.Size = New Size(151, 43)
         btnRegistrarse.TabIndex = 7
         btnRegistrarse.Text = "Registrarse"
         btnRegistrarse.UseVisualStyleBackColor = False
@@ -188,25 +195,27 @@ Partial Class FrmLogin
         btnIniciarSesion.BackColor = Color.DarkTurquoise
         btnIniciarSesion.Cursor = Cursors.Hand
         btnIniciarSesion.FlatStyle = FlatStyle.Flat
-        btnIniciarSesion.Font = New Font("Century Gothic", 9F, FontStyle.Bold)
+        btnIniciarSesion.Font = New Font("Century Gothic", 9.0F, FontStyle.Bold)
         btnIniciarSesion.ForeColor = Color.White
-        btnIniciarSesion.Location = New Point(34, 401)
+        btnIniciarSesion.Location = New Point(39, 535)
+        btnIniciarSesion.Margin = New Padding(3, 4, 3, 4)
         btnIniciarSesion.Name = "btnIniciarSesion"
-        btnIniciarSesion.Size = New Size(132, 32)
+        btnIniciarSesion.Size = New Size(151, 43)
         btnIniciarSesion.TabIndex = 6
         btnIniciarSesion.Text = "Iniciar Sesión"
         btnIniciarSesion.UseVisualStyleBackColor = False
         ' 
-        ' login
+        ' FrmLogin
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(982, 517)
+        ClientSize = New Size(1122, 689)
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
-        Name = "login"
+        Margin = New Padding(3, 4, 3, 4)
+        Name = "FrmLogin"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
